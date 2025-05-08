@@ -5,10 +5,10 @@ Follow these 6 steps to setup your own teams **app** backend logic as **bot** wi
 ![image](https://github.com/user-attachments/assets/8d05ffb7-a2ed-4a0f-b56b-7d176fc40c17)
 
 
-Step 2 :- Having a Bot also MS-teams.
+# Step 2 :- Having a Bot also MS-teams.
 ![image](https://github.com/user-attachments/assets/da063a70-0ac3-4d97-8b5e-7329d8e28ba7)
 
-Step 3 :- Copy Name, **App ID** and **Client secret** of the bot, and paste those details in .env file.
+# Step 3 :- Copy Name, **App ID** and **Client secret** of the bot, and paste those details in .env file.
 ![image](https://github.com/user-attachments/assets/7c3cdc47-4a85-4b91-9d31-d42a6bc41cee)
 
 note:- you can put anything as **bot route** keep in mind later, that **bot route** will define specific dynamic endpoint to you bot.
@@ -16,7 +16,7 @@ note:- you can put anything as **bot route** keep in mind later, that **bot rout
 
 "http://localhost:3002/template/api/messages/whateverBotRoutOfThatBot"
 
-Step 4 :- Now, 
+# Step 4 :- Now, 
   1. run this template over https (bcs azure/teams support bot to run only for ssl), follow these steps.
   2. npm install (all dependencies)
     In my case I am using pm2 and nginx. after doing
@@ -38,7 +38,7 @@ Step 4 :- Now,
   ![image](https://github.com/user-attachments/assets/a49ff7ea-6f8b-4d0b-8f74-64a817ad490f)
 
 
-step 5 :- Connect your **app** with you **bot**
+# step 5 :- Connect your **app** with you **bot**
   1. visit teams app dev portal
   2. visit your app
      ![image](https://github.com/user-attachments/assets/82d6ca40-57ad-46e6-b72b-73bffb0040fc)
@@ -54,13 +54,13 @@ step 5 :- Connect your **app** with you **bot**
 
   6. save all.
 
-step 6 :- Give you **app** some important permission like
+# step 6 :- Give you **app** some important permission like
 ![image](https://github.com/user-attachments/assets/9bb21056-aa9d-4484-8c5b-4fb47268d582)
 
 note :- these permissions let bot/app to use MS graph API, in this template this is only using for gathering user email, when user install bot to perform messaging tasks.
 
 
-Working UI
+# Working & Features
 
 1. installing/adding bot (handleInstallation)
   - bot will welcome you
