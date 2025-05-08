@@ -9,11 +9,13 @@ Having app in MS-teams.
 
 # Step 2 :-
 Having a Bot also MS-teams.
+
 ![image](https://github.com/user-attachments/assets/da063a70-0ac3-4d97-8b5e-7329d8e28ba7)
 
 # Step 3 :- 
 - Copy Name, **App ID** and **Client secret** of the bot.
 - paste those details in .env file.
+
 ![image](https://github.com/user-attachments/assets/7c3cdc47-4a85-4b91-9d31-d42a6bc41cee)
 note:- you can put anything as **bot route** keep in mind later, that **bot route** will define specific dynamic endpoint to you bot.
 
