@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.*
+
+# OS and editor system files
+.DS_Store
+Thumbs.db
+
+# Optional: exclude build output or compiled files
+dist/
+build/
+out/
+
+# VSCode settings (if you use VSCode)
+.vscode/
+
+# Optional: coverage reports
+coverage/

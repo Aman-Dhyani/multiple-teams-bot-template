@@ -1,0 +1,11 @@
+{
+  "name": "multiple-teams-bot-template",
+  "version": "1.0.0",
+  "description": "simple bots template for ms-teams which can handle task on install, message and interaction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aman dhyani",
+  "license": "ISC"
+}
