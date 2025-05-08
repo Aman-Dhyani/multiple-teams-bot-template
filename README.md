@@ -66,26 +66,26 @@
 ## 6 Simple Steps to setup this template as your teams Bot backend logic :- 
 
 ## Step 1 :- 
-Having app in MS-teams.
+- Having app in MS-teams.
 
-![image](https://github.com/user-attachments/assets/8d05ffb7-a2ed-4a0f-b56b-7d176fc40c17)
+  ![image](https://github.com/user-attachments/assets/8d05ffb7-a2ed-4a0f-b56b-7d176fc40c17)
 
 
 ## Step 2 :-
-Having a Bot also MS-teams.
+- Having a Bot also MS-teams.
 
-![image](https://github.com/user-attachments/assets/da063a70-0ac3-4d97-8b5e-7329d8e28ba7)
+  ![image](https://github.com/user-attachments/assets/da063a70-0ac3-4d97-8b5e-7329d8e28ba7)
 
 
 ## Step 3 :- 
 - Copy Name, **App ID** and **Client secret** of the bot.
 - paste those details in .env file.
 
-![image](https://github.com/user-attachments/assets/7c3cdc47-4a85-4b91-9d31-d42a6bc41cee)
+  ![image](https://github.com/user-attachments/assets/7c3cdc47-4a85-4b91-9d31-d42a6bc41cee)
 
 note:- you can put anything as **bot route** keep in mind later, that **bot route** will define specific dynamic endpoint to you bot.
 
-![image](https://github.com/user-attachments/assets/b16b1c1c-f066-41c5-8571-c523d725dfa0)
+  ![image](https://github.com/user-attachments/assets/b16b1c1c-f066-41c5-8571-c523d725dfa0)
 
 "http://localhost:3002/template/api/messages/whateverBotRoutOfThatBot"
 
