@@ -14,7 +14,7 @@
 ## 1. installing/adding bot (handleInstallation)
   - bot will welcome you
 
-  ![image](https://github.com/user-attachments/assets/2100c0ea-69ce-4757-9548-0349db933609)
+    ![image](https://github.com/user-attachments/assets/2100c0ea-69ce-4757-9548-0349db933609)
 
   - also show your email & bot converationID on console. (which you can customize to use later)
 
@@ -26,7 +26,7 @@
 
   - welcome adaptive card will contain 2 button "hi" and "hello"
 
-  ![image](https://github.com/user-attachments/assets/401a8388-e325-406d-b778-4b86095bab71)
+    ![image](https://github.com/user-attachments/assets/401a8388-e325-406d-b778-4b86095bab71)
 
 
 ## 2. invoke/interaction with bot (handleContext/handleInteraction)
@@ -107,11 +107,11 @@ note:- you can put anything as **bot route** keep in mind later, that **bot rout
 
   for azure
   
-  ![image](https://github.com/user-attachments/assets/8c5205b1-4bbe-4daa-97c9-97eaf8b7ce2f)
+    ![image](https://github.com/user-attachments/assets/8c5205b1-4bbe-4daa-97c9-97eaf8b7ce2f)
 
   for teams Dev portal
   
-  ![image](https://github.com/user-attachments/assets/a49ff7ea-6f8b-4d0b-8f74-64a817ad490f)
+    ![image](https://github.com/user-attachments/assets/a49ff7ea-6f8b-4d0b-8f74-64a817ad490f)
 
 
 ## step 5 :- 
