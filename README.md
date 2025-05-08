@@ -1,4 +1,4 @@
-# 🚀 Set Up Your Teams App as a Bot Backend Free – No Azure Functions Needed (6 Simple Steps)
+# 🚀 Set Up Your Teams App as a Bot Backend – Without using Azure Functions (6 Simple Steps)
 
 ## Step 1 :- 
 Having app in MS-teams.
