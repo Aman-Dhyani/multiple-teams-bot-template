@@ -9,7 +9,60 @@
 6. Toggling modal/dialog
 7. handle multiple bots (add as many in .env file)
 
+## Working
 
+## 1. installing/adding bot (handleInstallation)
+  - bot will welcome you
+
+  ![image](https://github.com/user-attachments/assets/2100c0ea-69ce-4757-9548-0349db933609)
+
+  - also show your email & bot converationID on console. (which you can customize to use later)
+
+    ![image](https://github.com/user-attachments/assets/d56b8588-3322-4275-aef2-a9566c99051b)
+    
+    e.g. you can store (userEmail, conversationID) of whoever install your bot, then later you can send them messages through bot by using Bot's conversationID
+    based on their email. like sending new update or specific message to your community😊.
+
+
+  - welcome adaptive card will contain 2 button "hi" and "hello"
+
+  ![image](https://github.com/user-attachments/assets/401a8388-e325-406d-b778-4b86095bab71)
+
+
+## 2. invoke/interaction with bot (handleContext/handleInteraction)
+   - clicking on "hi" and "hello" from welcome message will open a modal/dialog contains bot commands.
+
+     for hi ("bot -greet hi")
+     
+     ![image](https://github.com/user-attachments/assets/fc23e908-0801-4dc8-a89f-d379c846e2ac)
+     
+     
+     for hello ("bot -greet hello")
+     
+     ![image](https://github.com/user-attachments/assets/b13d5433-7ac8-4dee-9bb3-b7e49b48104a)
+    
+
+## 3. messageing to bot (handleCommand)
+
+   - message those commands to bot "bot -greet hello"
+
+     ![image](https://github.com/user-attachments/assets/db09ecb4-7f71-4eac-a881-bdf7a92655c4)
+
+   - bot will response with greet and a feedback btn
+
+     ![image](https://github.com/user-attachments/assets/539bff31-6a5f-4045-b0db-6d0d71b82d69)
+
+   - click will open modal/dialog like this
+
+     ![image](https://github.com/user-attachments/assets/b1f0f8ca-895f-4861-b292-56aa4c0a0368)
+
+   - clicking submit will close modal and update that adaptive card which you use earlier to open this modal/dialog
+
+     ![image](https://github.com/user-attachments/assets/72b914af-5892-415d-8984-c834776a54d0)
+
+
+
+## How to Setup
 ## 6 Simple Steps to setup this template as your teams Bot backend logic :- 
 
 ## Step 1 :- 
@@ -92,57 +145,6 @@ Give you **app** some important permission like
 note :- these permissions let bot/app to use MS graph API, in this template this is only using for gathering user email, when user install bot to perform messaging tasks.
 
 
-# Working & Features
-
-## 1. installing/adding bot (handleInstallation)
-  - bot will welcome you
-
-  ![image](https://github.com/user-attachments/assets/2100c0ea-69ce-4757-9548-0349db933609)
-
-  - also show your email & bot converationID on console. (which you can customize to use later)
-
-    ![image](https://github.com/user-attachments/assets/d56b8588-3322-4275-aef2-a9566c99051b)
-    
-    e.g. you can store (userEmail, conversationID) of whoever install your bot, then later you can send them messages through bot by using Bot's conversationID
-    based on their email. like sending new update or specific message to your community😊.
-
-
-  - welcome adaptive card will contain 2 button "hi" and "hello"
-
-  ![image](https://github.com/user-attachments/assets/401a8388-e325-406d-b778-4b86095bab71)
-
-
-## 2. invoke/interaction with bot (handleContext/handleInteraction)
-   - clicking on "hi" and "hello" from welcome message will open a modal/dialog contains bot commands.
-
-     for hi ("bot -greet hi")
-     
-     ![image](https://github.com/user-attachments/assets/fc23e908-0801-4dc8-a89f-d379c846e2ac)
-     
-     
-     for hello ("bot -greet hello")
-     
-     ![image](https://github.com/user-attachments/assets/b13d5433-7ac8-4dee-9bb3-b7e49b48104a)
-    
-
-## 3. messageing to bot (handleCommand)
-
-   - message those commands to bot "bot -greet hello"
-
-     ![image](https://github.com/user-attachments/assets/db09ecb4-7f71-4eac-a881-bdf7a92655c4)
-
-   - bot will response with greet and a feedback btn
-
-     ![image](https://github.com/user-attachments/assets/539bff31-6a5f-4045-b0db-6d0d71b82d69)
-
-   - click will open modal/dialog like this
-
-     ![image](https://github.com/user-attachments/assets/b1f0f8ca-895f-4861-b292-56aa4c0a0368)
-
-   - clicking submit will close modal and update that adaptive card which you use earlier to open this modal/dialog
-
-     ![image](https://github.com/user-attachments/assets/72b914af-5892-415d-8984-c834776a54d0)
-
 
 ## Additional Features
 8. including handle "message extensions" commented line of code. so you can handle this type of stuff👇
@@ -200,8 +202,3 @@ const isWeAreInBotsConversation = await isBotsConversation(context);
 */
 
 this bot's template is your playground! You can customize it to any level 🚀🤖🤖
-
-
-
-
-  
