@@ -152,8 +152,9 @@ note :- these permissions let bot/app to use MS graph API, in this template this
   ![image](https://github.com/user-attachments/assets/e451093e-e07c-41e8-8ec7-f9615fded449)
 
 
-// check current conversation isBotsConversation(context) on handleContext file ---------
-// (⚠️⚠️⚠️ --- !important cases 🤖bot response based on "conversation ID"🤖 -- ⚠️⚠️⚠️)
+check current conversation isBotsConversation(context) on handleContext file ---------
+
+(⚠️⚠️⚠️ --- !important cases 🤖bot response based on "conversation ID"🤖 -- ⚠️⚠️⚠️)
 
 when user perform something in bot's conversation/bot's "1to1" chat
 - then bots usually response user in its conversation bcs bot is part of its own conversation)
