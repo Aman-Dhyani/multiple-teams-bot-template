@@ -11,6 +11,7 @@ Having a Bot also MS-teams.
 
 ![image](https://github.com/user-attachments/assets/da063a70-0ac3-4d97-8b5e-7329d8e28ba7)
 
+
 ## Step 3 :- 
 - Copy Name, **App ID** and **Client secret** of the bot.
 - paste those details in .env file.
@@ -22,6 +23,7 @@ note:- you can put anything as **bot route** keep in mind later, that **bot rout
 ![image](https://github.com/user-attachments/assets/b16b1c1c-f066-41c5-8571-c523d725dfa0)
 
 "http://localhost:3002/template/api/messages/whateverBotRoutOfThatBot"
+
 
 ## Step 4 :- Now, 
   - run this template over https (bcs azure/teams support bot to run only for ssl), follow these steps.
@@ -67,7 +69,8 @@ Connect your **app** with you **bot**
   
      ![image](https://github.com/user-attachments/assets/29362dd9-05c9-4daa-bb83-c344ece2b755)
 
-  6. save all.
+  - save all.
+
 
 ## step 6 :- 
 Give you **app** some important permission like
@@ -79,7 +82,7 @@ note :- these permissions let bot/app to use MS graph API, in this template this
 
 # Working & Features
 
-1. installing/adding bot (handleInstallation)
+1. ## installing/adding bot (handleInstallation)
   - bot will welcome you
   ![image](https://github.com/user-attachments/assets/2100c0ea-69ce-4757-9548-0349db933609)
 
@@ -94,7 +97,7 @@ note :- these permissions let bot/app to use MS graph API, in this template this
   ![image](https://github.com/user-attachments/assets/401a8388-e325-406d-b778-4b86095bab71)
 
 
-2. invoke/interaction with bot (handleContext/handleInteraction)
+## 2. invoke/interaction with bot (handleContext/handleInteraction)
    - clicking on "hi" and "hello" from welcome message will open a modal/dialog contains bot commands.
 
      for hi ("bot -greet hi")
