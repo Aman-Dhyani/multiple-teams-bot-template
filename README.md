@@ -1,5 +1,4 @@
-### Follow these 6 steps to setup your own teams **app** backend logic as **bot** without using azure functions.
-
+# 🚀 Set Up Your Teams App as a Bot Backend Free – No Azure Functions Needed (6 Simple Steps)
 
 ## Step 1 :- 
 Having app in MS-teams.
@@ -7,12 +6,12 @@ Having app in MS-teams.
 ![image](https://github.com/user-attachments/assets/8d05ffb7-a2ed-4a0f-b56b-7d176fc40c17)
 
 
-# Step 2 :-
+## Step 2 :-
 Having a Bot also MS-teams.
 
 ![image](https://github.com/user-attachments/assets/da063a70-0ac3-4d97-8b5e-7329d8e28ba7)
 
-# Step 3 :- 
+## Step 3 :- 
 - Copy Name, **App ID** and **Client secret** of the bot.
 - paste those details in .env file.
 
@@ -24,7 +23,7 @@ note:- you can put anything as **bot route** keep in mind later, that **bot rout
 
 "http://localhost:3002/template/api/messages/whateverBotRoutOfThatBot"
 
-# Step 4 :- Now, 
+## Step 4 :- Now, 
   - run this template over https (bcs azure/teams support bot to run only for ssl), follow these steps.
   - npm install (all dependencies)
     In my case I am using pm2 and nginx. after doing
@@ -48,7 +47,7 @@ note:- you can put anything as **bot route** keep in mind later, that **bot rout
   ![image](https://github.com/user-attachments/assets/a49ff7ea-6f8b-4d0b-8f74-64a817ad490f)
 
 
-# step 5 :- 
+## step 5 :- 
 Connect your **app** with you **bot**
 
   - visit teams app dev portal
@@ -70,7 +69,7 @@ Connect your **app** with you **bot**
 
   6. save all.
 
-# step 6 :- 
+## step 6 :- 
 Give you **app** some important permission like
 
 ![image](https://github.com/user-attachments/assets/9bb21056-aa9d-4484-8c5b-4fb47268d582)
