@@ -32,10 +32,9 @@ note:- you can put anything as **bot route** keep in mind later, that **bot rout
       - service nginx start,
       - pm2 logs
 
-  you will see this.
+      you will see this.
   
-  ![image](https://github.com/user-attachments/assets/7056cb77-74fa-44a5-a318-8955a8314a8c)
-
+      ![image](https://github.com/user-attachments/assets/7056cb77-74fa-44a5-a318-8955a8314a8c)
 
   - copy "https://yourdomain.com/template/api/messages/whateverBotRoutOfThatBot"
   - paste it to bots endpoint configuration
@@ -54,7 +53,7 @@ Connect your **app** with you **bot**
 
   - visit teams app dev portal
   - visit your app
-  - 
+
      ![image](https://github.com/user-attachments/assets/82d6ca40-57ad-46e6-b72b-73bffb0040fc)
 
   - open App Features tab and click on Bot
