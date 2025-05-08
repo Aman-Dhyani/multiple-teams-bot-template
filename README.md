@@ -144,14 +144,7 @@ note :- these permissions let bot/app to use MS graph API, in this template this
      ![image](https://github.com/user-attachments/assets/72b914af-5892-415d-8984-c834776a54d0)
 
 
-At the end this bot's template come with some basic feature like
-1. handling instatllation
-2. handling message/commnds reply
-3. handling Context/interaction
-4. sending Adaptive card
-5. updating Adaptive card
-6. Toggling modal/dialog
-7. handle multiple bots (add as many in .env file)
+## Additional Features
 8. including handle "message extensions" commented line of code. so you can handle this type of stuff👇
 
   ![image](https://github.com/user-attachments/assets/e451093e-e07c-41e8-8ec7-f9615fded449)
