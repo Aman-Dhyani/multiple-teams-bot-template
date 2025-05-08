@@ -40,27 +40,34 @@ performing "message exention" in bot conversation "user-to-Bot", will give respo
 performing "message exention" in other conversation "group/user-to-other-person", will give response in bot's conversation.
 
 */
-// async function isBotsConversation(context) {
-//   try {
-//     const members = await context.adapter.getConversationMembers(context);
-//     if (members) {
-//       return true;
-//     }
-//   } catch (error) {
-//     return false;
-//   }
-// }
+
+/* 
+  async function isBotsConversation(context) {
+    try {
+      const members = await context.adapter.getConversationMembers(context);
+      if (members) {
+        return true;
+      }
+    } catch (error) {
+      return false;
+    }
+  }
+*/
 
 // Get context data
 async function handleContext(context, contextData, adapter) {
   // let { botName, userEmail, conversationID, serviceUrl } = contextData;
 
   try {
-    // const isWeAreInBotsConversation = await isBotsConversation(context);
-    // if(isWeAreInBotsConversation === false){
-    //   resConvID = await retrieveUsersConversationID(userEmail);
-    //   conversationID = resConvID.conversationID
-    // }
+    /* 
+    const isWeAreInBotsConversation = await isBotsConversation(context);
+      if(isWeAreInBotsConversation === false){
+        resConvID = await retrieveUsersConversationID(userEmail);
+        conversationID = resConvID.conversationID
+      }
+            
+    console.log("current Conversation ID : " + conversationID); 
+    */
 
     // console.log("current Conversation ID : " + conversationID);
 
