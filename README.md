@@ -1,4 +1,16 @@
-# 🚀 Set Up Your Teams App as a Bot Backend – Without using Azure Functions (6 Simple Steps)
+# 🚀 Set Up Your Teams "App" with this "Bot" Backend template – Without using Azure Functions
+
+## Features
+1. handling instatllation
+2. handling message/commnds reply
+3. handling Context/interaction
+4. sending Adaptive card
+5. updating Adaptive card
+6. Toggling modal/dialog
+7. handle multiple bots (add as many in .env file)
+
+
+## 6 Simple Steps to setup this template as your teams Bot backend logic :- 
 
 ## Step 1 :- 
 Having app in MS-teams.
