@@ -17,50 +17,63 @@ Having a Bot also MS-teams.
 - paste those details in .env file.
 
 ![image](https://github.com/user-attachments/assets/7c3cdc47-4a85-4b91-9d31-d42a6bc41cee)
+
 note:- you can put anything as **bot route** keep in mind later, that **bot route** will define specific dynamic endpoint to you bot.
 
 ![image](https://github.com/user-attachments/assets/b16b1c1c-f066-41c5-8571-c523d725dfa0)
+
 "http://localhost:3002/template/api/messages/whateverBotRoutOfThatBot"
 
 # Step 4 :- Now, 
-  1. run this template over https (bcs azure/teams support bot to run only for ssl), follow these steps.
-  2. npm install (all dependencies)
+  - run this template over https (bcs azure/teams support bot to run only for ssl), follow these steps.
+  - npm install (all dependencies)
     In my case I am using pm2 and nginx. after doing
       - pm2 start index.js,
       - service nginx start,
       - pm2 logs
 
   you will see this.
+  
   ![image](https://github.com/user-attachments/assets/7056cb77-74fa-44a5-a318-8955a8314a8c)
 
 
-  4. copy "https://yourdomain.com/template/api/messages/whateverBotRoutOfThatBot"
-  5. paste it to bots endpoint configuration
+  - copy "https://yourdomain.com/template/api/messages/whateverBotRoutOfThatBot"
+  - paste it to bots endpoint configuration
 
   for azure
+  
   ![image](https://github.com/user-attachments/assets/8c5205b1-4bbe-4daa-97c9-97eaf8b7ce2f)
 
   for teams Dev portal
+  
   ![image](https://github.com/user-attachments/assets/a49ff7ea-6f8b-4d0b-8f74-64a817ad490f)
 
 
-# step 5 :- Connect your **app** with you **bot**
-  1. visit teams app dev portal
-  2. visit your app
+# step 5 :- 
+Connect your **app** with you **bot**
+
+  - visit teams app dev portal
+  - visit your app
+  - 
      ![image](https://github.com/user-attachments/assets/82d6ca40-57ad-46e6-b72b-73bffb0040fc)
 
-  3. open App Features tab and click on Bot
+  - open App Features tab and click on Bot
+
      ![image](https://github.com/user-attachments/assets/fe281b7b-47f0-4b3a-8a5e-3b8cd1fd7176)
 
-  4. choose your bot among other bots
+  - choose your bot among other bots
+
      ![image](https://github.com/user-attachments/assets/ece239de-bd4c-4866-b067-b0e3eaf65a7b)
 
-  5. select scope also (personal is good for me, so we dont have to install bot every time for each team channels or group)
+  - select scope also (personal is good for me, so we dont have to install bot every time for each team channels or group
+  
      ![image](https://github.com/user-attachments/assets/29362dd9-05c9-4daa-bb83-c344ece2b755)
 
   6. save all.
 
-# step 6 :- Give you **app** some important permission like
+# step 6 :- 
+Give you **app** some important permission like
+
 ![image](https://github.com/user-attachments/assets/9bb21056-aa9d-4484-8c5b-4fb47268d582)
 
 note :- these permissions let bot/app to use MS graph API, in this template this is only using for gathering user email, when user install bot to perform messaging tasks.
