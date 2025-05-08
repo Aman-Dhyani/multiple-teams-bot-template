@@ -125,11 +125,11 @@ note :- these permissions let bot/app to use MS graph API, in this template this
 
    - click will open modal/dialog like this
 
-    ![image](https://github.com/user-attachments/assets/b1f0f8ca-895f-4861-b292-56aa4c0a0368)
+     ![image](https://github.com/user-attachments/assets/b1f0f8ca-895f-4861-b292-56aa4c0a0368)
 
    - clicking submit will close modal and update that adaptive card which you use earlier to open this modal/dialog
 
-    ![image](https://github.com/user-attachments/assets/72b914af-5892-415d-8984-c834776a54d0)
+     ![image](https://github.com/user-attachments/assets/72b914af-5892-415d-8984-c834776a54d0)
 
 
 At the end this bot's template come with some basic feature like
